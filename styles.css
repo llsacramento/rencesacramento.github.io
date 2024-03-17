@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #081b29;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.logo-rence {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.logo-rence:hover {
+    color: #00abF0;
+    transform: translateY(-5px);
+}
+
+.parent-link{
+    font-size: 1rem;
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.parent-link, .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links {
+    padding: 0 2.5rem;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.6s ease-in-out;
+    
+}
+
+.active {
+    /* color: #F7882F; */
+    color: #00abF0;
+}
+
+.social-links:hover {
+    /* color: #F7882F; */
+    cursor: pointer;
+    color: #00abF0;
+    transform: translateY(-5px);
+}
+
+/* section {
+    padding: 20px;
+    margin: 20px;
+} */
+
+/* ABOUT ME */
+
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: -50px;
+}
+
+.home-img {
+    width: 350px;
+    height: 350px;
+    /* border: 1px solid #0F3857 ; */
+    border-radius: 50%;
+    background-color: #071A29;
+    
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform .7s ease-in-out;
+    
+}
+
+.home-img img:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.home-text {
+    color: #fff;
+}
+
+.home-text span {
+    padding: 5px 25px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.home-text span:hover {
+    color: #00abF0;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.home-text h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 23px 0;
+    margin-top: 30px;
+    transition: all 0.6s ease-in-out;
+}
+
+.home-text h1:hover {
+    color:#00abF0;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+.home-text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #c3c3c3;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+/* SOCIALS */
+
+.share {
+    position: absolute;
+    bottom: 3rem;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.share p {
+    font-size: 17px;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.social i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 7px;
+    transition: all 0.6s ease-in-out;
+}
+
+.social i:hover {
+    cursor: pointer;
+    color: #00abF0;
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    /* width: 100%; */
+}
