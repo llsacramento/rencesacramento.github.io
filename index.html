@@ -3,52 +3,388 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laurence Lloyd</title>
+    <title>Laurence Lloyd Sacramento | Web Developer</title>
+    <meta name="description" content="Portfolio of Laurence Lloyd Sacramento — a passionate web developer crafting exceptional online experiences.">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Laurence Lloyd Sacramento | Web Developer">
+    <meta property="og:description" content="A passionate web developer dedicated to crafting exceptional online experiences. 4+ years of experience building clean, responsive websites.">
+    <meta property="og:image" content="https://rencesacramento.github.io/assets/images/1759125913278.jpeg">
+    <meta property="og:url" content="https://rencesacramento.github.io">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- NAVIGATION -->
     <header id="top">
-        <nav class="container">
-            <div class="logo-box">
-                <a href="/" target="">
-                    <h3 class="logo-rence">Rence.</h3>
-                </a>
-            </div>
-            <div class="menu">
-                <i class='bx bx-menu' ></i>
-            </div>
-            <div class="parent-link">
-                <a href="#" class="social-links active">About</a>
-                <a class="social-links">Projects</a>
-                <a class="social-links">Photography</a>
-                <a class="social-links" id="get-in-touch">Get in touch</a>
-            </div>
+        <nav class="nav-container">
+            <a href="/" class="logo">Rence<span>.</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class='bx bx-menu'></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#photography" class="nav-link">Photography</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                <i class='bx bx-sun'></i>
+            </button>
         </nav>
     </header>
 
-    <!-- HOME SECTION -->
-    <section class="home">
-        <div class="home-text">
-            <span>Web Developer</span>
-            <h1>Laurence Lloyd</h1>
-            <p>A passionate web developer dedicated to crafting exceptional online experiences</p>
-        </div>
-        <div class="home-img">
-            <img src="rence_pogi1.png" alt="Rence">
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">Web Developer</span>
+                <h1>Hi, I'm <strong>Laurence Lloyd</strong></h1>
+                <p class="hero-description">A passionate web developer dedicated to crafting exceptional online experiences. I build clean, responsive, and user-friendly websites.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="https://www.linkedin.com/in/rence-sacramento-a25519202/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View LinkedIn</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="assets/images/1759125913278.jpeg" alt="Laurence Lloyd Sacramento" loading="eager">
+                </div>
+            </div>
         </div>
     </section>
-    <div class="share" id="share">
-        <p>Get in touch with me: </p>
 
-        <div class="social">
-            <a href="https://www.facebook.com/Rence9395/" target="_blank"><i class='bx bxl-facebook' ></i></a>
-            <a href="https://www.instagram.com/rnclloyd/" target="_blank"><i class='bx bxl-instagram' ></i></a>
-            <a href="https://www.linkedin.com/in/rence-sacramento-a25519202/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-            <a href="https://www.tiktok.com/@rncllyd?lang=en" target="_blank"><i class='bx bxl-tiktok' ></i></a>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about" data-animate>
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a web developer who loves turning ideas into reality through code. I focus on creating websites that are not only visually appealing but also performant and accessible.</p>
+                <p>Whether it's building responsive layouts, optimizing user experiences, or solving complex problems — I'm always eager to learn and grow as a developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience" id="experience" data-animate>
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="timeline-date">Oct 2025 — Present</span>
+                        </div>
+                        <p class="timeline-company">Infor · Full-time · Hybrid</p>
+                        <p class="timeline-location">Taguig, National Capital Region, Philippines</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Frontend Web Developer</h3>
+                            <span class="timeline-date">Jun 2024 — Oct 2025</span>
+                        </div>
+                        <p class="timeline-company">RAM Food Products Inc. · Full-time · On-site</p>
+                        <p class="timeline-location">Makati, National Capital Region, Philippines</p>
+                        <div class="timeline-skills">
+                            <span>Microsoft SQL Server</span>
+                            <span>Angular</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Frontend Developer for EDC</h3>
+                            <span class="timeline-date">Dec 2023 — May 2024</span>
+                        </div>
+                        <p class="timeline-company">Indra · Full-time</p>
+                        <p class="timeline-description">Responsible in creating/building functional web application for EDC</p>
+                        <div class="timeline-skills">
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="timeline-date">Jul 2021 — May 2024</span>
+                        </div>
+                        <p class="timeline-company">Indra · Full-time · On-site</p>
+                        <p class="timeline-location">Philippines</p>
+                        <div class="timeline-skills">
+                            <span>CSS</span>
+                            <span>Databases</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>L3 Python Support for Globe</h3>
+                            <span class="timeline-date">Nov 2022 — Nov 2023</span>
+                        </div>
+                        <p class="timeline-company">Indra · Full-time</p>
+                        <p class="timeline-description">Handled complex issues that usually entail major code changes. Built and deployed using AWS.</p>
+                        <div class="timeline-skills">
+                            <span>AWS</span>
+                            <span>Technical Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills" data-animate>
+        <div class="section-container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class='bx bxl-html5'></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup & accessibility</p>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bxl-css3'></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design & animations</p>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactive & dynamic experiences</p>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-git-branch'></i>
+                    <h3>Git</h3>
+                    <p>Version control & collaboration</p>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bxl-angular'></i>
+                    <h3>Angular</h3>
+                    <p>Component-based web applications</p>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-palette'></i>
+                    <h3>UI/UX</h3>
+                    <p>User-centered design thinking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects" data-animate>
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-package'></i>
+                    </div>
+                    <h3>Inventory Management System</h3>
+                    <p>Built a comprehensive IMS for RAM Food Products Inc. to track and manage inventory across the organization.</p>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-group'></i>
+                    </div>
+                    <h3>HR Information System</h3>
+                    <p>Developed an HRIS to streamline human resource processes including employee records, attendance, and payroll management.</p>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-buildings'></i>
+                    </div>
+                    <h3>Fixed Asset Management System</h3>
+                    <p>Created a system to track, manage, and report on company fixed assets throughout their lifecycle.</p>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-receipt'></i>
+                    </div>
+                    <h3>Accounts Payable Management System</h3>
+                    <p>Built a system to automate and manage accounts payable workflows, invoice processing, and payment tracking.</p>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-globe'></i>
+                    </div>
+                    <h3>EDC Web Application</h3>
+                    <p>Built a functional web application for Energy Development Corporation using Python and SQL, handling complex data workflows and user interfaces.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Web App</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-cloud'></i>
+                    </div>
+                    <h3>Globe L3 Support Platform</h3>
+                    <p>Managed and resolved complex production issues requiring major code changes. Built and deployed solutions using AWS infrastructure.</p>
+                    <div class="project-tags">
+                        <span>AWS</span>
+                        <span>Python</span>
+                        <span>DevOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHOTOGRAPHY SECTION -->
+    <section class="photography" id="photography" data-animate>
+        <div class="section-container">
+            <h2 class="section-title">Photography</h2>
+            <div class="carousel">
+                <button class="carousel-btn carousel-btn-left" aria-label="Previous image">
+                    <i class='bx bx-chevron-left'></i>
+                </button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="assets/photography/06928F04-A560-44B0-A08A-245ED7ACA9BE.jpg" alt="Photography 1" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/photography/DJI_20241208_160553_864.jpg" alt="Photography 2" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/photography/IMG_0446.JPG" alt="Photography 3" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/photography/IMG_0854.jpg" alt="Photography 4" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/photography/IMG_1671.jpg" alt="Photography 5" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/photography/IMG_2396_Original.jpg" alt="Photography 6" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/photography/IMG_4971.jpg" alt="Photography 7" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-btn-right" aria-label="Next image">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+            </div>
+            <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact" data-animate>
+        <div class="section-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-description">I'm always open to new opportunities and collaborations. Send me a message or reach out through any of the platforms below.</p>
+            <div class="contact-grid">
+                <form class="contact-form" action="https://formspree.io/f/mykvwgaa" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>Feel free to reach out through the form or connect with me on social media.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Rence9395/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/rnclloyd/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rence-sacramento-a25519202/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@rncllyd?lang=en" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok">
+                            <i class='bx bxl-tiktok'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast">
+        <i class='bx bx-check-circle'></i>
+        <span id="toast-message">Message sent successfully!</span>
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close image viewer"><i class='bx bx-x'></i></button>
+        <button class="lightbox-prev" aria-label="Previous image"><i class='bx bx-chevron-left'></i></button>
+        <button class="lightbox-next" aria-label="Next image"><i class='bx bx-chevron-right'></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="Full size photo" id="lightbox-img">
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="section-container">
+            <p>&copy; 2026 Laurence Lloyd Sacramento. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="index.js"></script>
